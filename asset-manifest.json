@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.js": "/outer_wilds_music_box/static/js/main.301d8057.chunk.js",
+    "main.js.map": "/outer_wilds_music_box/static/js/main.301d8057.chunk.js.map",
+    "runtime-main.js": "/outer_wilds_music_box/static/js/runtime-main.810275cc.js",
+    "runtime-main.js.map": "/outer_wilds_music_box/static/js/runtime-main.810275cc.js.map",
+    "static/js/2.9bffc07d.chunk.js": "/outer_wilds_music_box/static/js/2.9bffc07d.chunk.js",
+    "static/js/2.9bffc07d.chunk.js.map": "/outer_wilds_music_box/static/js/2.9bffc07d.chunk.js.map",
+    "index.html": "/outer_wilds_music_box/index.html",
+    "static/js/2.9bffc07d.chunk.js.LICENSE.txt": "/outer_wilds_music_box/static/js/2.9bffc07d.chunk.js.LICENSE.txt",
+    "static/media/outer-wilds-banjo.5da443d6.mp3": "/outer_wilds_music_box/static/media/outer-wilds-banjo.5da443d6.mp3",
+    "static/media/outer-wilds-drums.422a7cc3.mp3": "/outer_wilds_music_box/static/media/outer-wilds-drums.422a7cc3.mp3",
+    "static/media/outer-wilds-flute.9a2a3744.mp3": "/outer_wilds_music_box/static/media/outer-wilds-flute.9a2a3744.mp3",
+    "static/media/outer-wilds-harmonica.e9fab8f9.mp3": "/outer_wilds_music_box/static/media/outer-wilds-harmonica.e9fab8f9.mp3",
+    "static/media/outer-wilds-piano.ac5800be.mp3": "/outer_wilds_music_box/static/media/outer-wilds-piano.ac5800be.mp3",
+    "static/media/outer-wilds-stranger.d6dc2693.mp3": "/outer_wilds_music_box/static/media/outer-wilds-stranger.d6dc2693.mp3",
+    "static/media/outer-wilds-whistle.f8037762.mp3": "/outer_wilds_music_box/static/media/outer-wilds-whistle.f8037762.mp3",
+    "static/media/silence-guide.272e1c70.mp3": "/outer_wilds_music_box/static/media/silence-guide.272e1c70.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.810275cc.js",
+    "static/js/2.9bffc07d.chunk.js",
+    "static/js/main.301d8057.chunk.js"
+  ]
+}
