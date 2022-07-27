@@ -2,14 +2,25 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 
-import guideAudio from './music/silence-guide.mp3'
-import pianoAudio from './music/outer-wilds-piano.mp3'
-import banjoAudio from './music/outer-wilds-banjo.mp3'
-import harmonicaAudio from './music/outer-wilds-harmonica.mp3'
-import fluteAudio from './music/outer-wilds-flute.mp3'
-import drumsAudio from './music/outer-wilds-drums.mp3'
-import whistleAudio from './music/outer-wilds-whistle.mp3'
-import celloAudio from './music/outer-wilds-stranger.mp3'
+import guideAudio from './music/silence-guide.mp3';
+import pianoAudio from './music/outer-wilds-piano.mp3';
+import banjoAudio from './music/outer-wilds-banjo.mp3';
+import harmonicaAudio from './music/outer-wilds-harmonica.mp3';
+import fluteAudio from './music/outer-wilds-flute.mp3';
+import drumsAudio from './music/outer-wilds-drums.mp3';
+import whistleAudio from './music/outer-wilds-whistle.mp3';
+import celloAudio from './music/outer-wilds-stranger.mp3';
+
+import {
+  banjo,
+  whistle,
+  piano,
+  harmonica,
+  flute,
+  cello,
+  silenceGuide,
+  drums
+} from './utils/instruments_data';
 // import Elem from './modules/elements.js';
 
 //REACT RENDER
@@ -21,53 +32,54 @@ ReactDOM.render(
 );
 
 // INSTRUMENT FILES
-const banjo = {
-  relativePath:"../music/outer-wilds-banjo.mp3",
-  playing:false,
-  audio: new Audio(banjoAudio),
-  checkBox: document.getElementById('chkBanjo'),
-}
-const whistle = {
-  relativePath:"../music/outer-wilds-whistle.mp3",
-  playing:false,
-  audio: new Audio(whistleAudio),
-  checkBox: document.getElementById('chkWhistle'),
-}
-const flute = {
-  relativePath:"../music/outer-wilds-flute.mp3",
-  playing:false,
-  audio: new Audio(fluteAudio),
-  checkBox: document.getElementById('chkFlute'),
-}
-const harmonica = {
-  relativePath:"../music/outer-wilds-harmonica.mp3",
-  playing:false,
-  audio: new Audio(harmonicaAudio),
-  checkBox: document.getElementById('chkHarmonica'),
-}
-const drums = {
-  relativePath:"../music/outer-wilds-drums.mp3",
-  playing:false,
-  audio: new Audio(drumsAudio),
-  checkBox: document.getElementById('chkDrums'),
-}
-const piano = {
-  relativePath:"./music/outer-wilds-piano.mp3",
-  playing:false,
-  audio: new Audio(pianoAudio),
-  checkBox: document.getElementById('chkPiano'),
-}
-const cello = {
-  relativePath:"../music/outer-wilds-stranger.mp3",
-  playing:false,
-  audio: new Audio(celloAudio),
-  checkBox: document.getElementById('chkCello'),
-}
-const silenceGuide = {
-  relativePath:"../music/silence-guide.mp3",
-  playing:false,
-  audio: new Audio(guideAudio),
-}
+// const banjo = {
+//   relativePath:"../music/outer-wilds-banjo.mp3",
+//   playing: false,
+//   audio: new Audio(banjoAudio),
+//   checkBox: document.getElementById('chkBanjo'),
+//   name: "Banjo"
+// }
+// const whistle = {
+//   relativePath:"../music/outer-wilds-whistle.mp3",
+//   playing:false,
+//   audio: new Audio(whistleAudio),
+//   checkBox: document.getElementById('chkWhistle'),
+// }
+// const flute = {
+//   relativePath:"../music/outer-wilds-flute.mp3",
+//   playing:false,
+//   audio: new Audio(fluteAudio),
+//   checkBox: document.getElementById('chkFlute'),
+// }
+// const harmonica = {
+//   relativePath:"../music/outer-wilds-harmonica.mp3",
+//   playing:false,
+//   audio: new Audio(harmonicaAudio),
+//   checkBox: document.getElementById('chkHarmonica'),
+// }
+// const drums = {
+//   relativePath:"../music/outer-wilds-drums.mp3",
+//   playing:false,
+//   audio: new Audio(drumsAudio),
+//   checkBox: document.getElementById('chkDrums'),
+// }
+// const piano = {
+//   relativePath:"./music/outer-wilds-piano.mp3",
+//   playing:false,
+//   audio: new Audio(pianoAudio),
+//   checkBox: document.getElementById('chkPiano'),
+// }
+// const cello = {
+//   relativePath:"../music/outer-wilds-stranger.mp3",
+//   playing:false,
+//   audio: new Audio(celloAudio),
+//   checkBox: document.getElementById('chkCello'),
+// }
+// const silenceGuide = {
+//   relativePath:"../music/silence-guide.mp3",
+//   playing:false,
+//   audio: new Audio(guideAudio),
+// }
 
 const instrumentsArray = [banjo, whistle, harmonica, piano, flute, drums, cello]
 
