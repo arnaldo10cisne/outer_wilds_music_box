@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(179, 255, 230);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.appHeader {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.appTitle {
+  font-size: 3em;
+  color: #2f4f4f;
+}
+
+.appDescription {
+  font-size: 1.5em;
+  color: #2f4f4f;
+  margin-top: 10px;
+}
+
+.toggleAllButton {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #2f4f4f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.toggleAllButton:hover {
+  background-color: #1e2f2f;
+}
+
+.inputBox {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.checkBoxElement {
+  display: none;
+}
+
+.checkBoxLabel {
+  display: inline-block;
+  padding: 5px 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 5px;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+  background-color: #fff;
+  color: #2f4f4f;
+  border: 2px solid #2f4f4f;
+}
+
+.checkBoxElement:hover + .checkBoxLabel,
+.checkBoxLabel:hover {
+  background-color: #2f4f4f;
+  color: #fff;
+}
+
+.checkBoxElement:checked + .checkBoxLabel {
+  background-color: #2f4f4f;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .appDescription {
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .inputBox {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .checkBoxLabel {
+    margin-left: 0;
+    margin-right: 0;
+    width: 80%;
+    text-align: center;
+  }
+}
